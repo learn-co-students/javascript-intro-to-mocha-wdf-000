@@ -7,6 +7,7 @@ describe('Intro to Mocha', function () {
 
   describe('sayHey()', function () {
     it('should return the string "Hey!"', function () {
+    
       expect(sayHey()).toEqual('Hey!');
     });
   });
