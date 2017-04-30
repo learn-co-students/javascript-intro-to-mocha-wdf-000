@@ -3,21 +3,21 @@ function theTruth() {
 }
 
 function sayHey() {
-  return "Hey!";
+  return 'Hey!';
 }
 
 function sayHeyFriend(name) {
-  return "Hey, " + name + "!";
+  return `Hey, ${name}!`;
 }
 
 function favoriteIceCream(flavor) {
-  return "I love " + flavor;
+  return `I love ${flavor}`;
 }
 
 function shouting(string) {
   return string.toUpperCase();
 }
 
-function roundDown(num) {
-  return Math.floor(num);
+function roundDown(number) {
+  return Math.floor(number);
 }
